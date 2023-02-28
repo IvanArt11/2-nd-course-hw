@@ -17,14 +17,14 @@
         <button class="top_button">Поехали!</button>
     </header>
         <section class="product-box center">
-            <div class="product_first">
-                <h3>Игра 1</h3>
+            <div class="product product_first">
+                <a class="product_title" href="#">Игра 1</a>
             </div>
-            <div class="product_second">
-                <h3>Игра 2</h3>
+            <div class="product product_second">
+                <a class="product_title" href="#">Игра 2</a>
             </div>
-            <div class="product_third">
-                <h3>Игра 3</h3>
+            <div class="product product_third">
+                <a class="product_title" href="#">Игра 3</a>
             </div>
         </section>
 </body>
