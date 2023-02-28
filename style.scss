@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    font-family: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+
+.center {
+    padding: 0px 120px;
+}
+
+.top {
+    height: 1024px;
+    padding-top: 217px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(./img/Rectangle\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &_title {
+        margin-bottom: 32px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 78px;
+    }
+
+    &_text {
+        margin-bottom: 44px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    &_button {
+        box-sizing: border-box;
+        border-radius: 30px;
+        background: #9C0332;
+        padding: 13px 74px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+
+        &:hover {
+            background: #FFFFFF;
+            color: #000000;
+            cursor: pointer;
+        }
+    }
+}
+
+.product-box {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    padding: 128px 120px;
+    background: #000915;
+}
+
+.product {
+    box-sizing: border-box;
+    background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding-bottom: 32px;
+    padding-left: 32px;
+
+    &_title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &_first {
+        background-image: url(./img/Rectangle\ 6.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: span 4;
+        height: 300px;
+
+        &:hover {
+            background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/Rectangle\ 6.jpg);
+            cursor: pointer;
+        }
+    }
+
+    &_second {
+        background-image: url(./img/Rectangle\ 7.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: span 4;
+        height: 300px;
+
+        &:hover {
+            background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/Rectangle\ 7.jpg);
+            cursor: pointer;
+        }
+    }
+
+    &_third {
+        background-image: url(./img/Rectangle\ 8.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: span 4;
+        height: 300px;
+
+        &:hover {
+            background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/Rectangle\ 8.jpg);
+            cursor: pointer;
+        }
+    }
+}
