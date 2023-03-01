@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF;
+}
+
+.center {
+  padding: 0px 120px;
+}
+
+.top {
+  height: 1024px;
+  padding-top: 217px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(/Rectangle\ 1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.top_title {
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+}
+.top_text {
+  margin-bottom: 44px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+.top_button {
+  box-sizing: border-box;
+  border-radius: 30px;
+  background: #9C0332;
+  padding: 13px 74px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.top_button:hover {
+  background: #FFFFFF;
+  color: #000000;
+  cursor: pointer;
+}
+
+.product-box {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+  padding: 128px 120px;
+  background: #000915;
+}
+
+.product {
+  box-sizing: border-box;
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding-bottom: 32px;
+  padding-left: 32px;
+}
+.product_title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration: none;
+}
+.product_title:hover {
+  text-decoration: underline;
+}
+.product_first {
+  background-image: url(/Rectangle\ 6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 4;
+  height: 300px;
+}
+.product_first:hover {
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/Rectangle\ 6.jpg);
+  cursor: pointer;
+}
+.product_second {
+  background-image: url(/Rectangle\ 7.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 4;
+  height: 300px;
+}
+.product_second:hover {
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/Rectangle\ 7.jpg);
+  cursor: pointer;
+}
+.product_third {
+  background-image: url(/Rectangle\ 8.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 4;
+  height: 300px;
+}
+.product_third:hover {
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./img/Rectangle\ 8.jpg);
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
