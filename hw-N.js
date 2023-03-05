@@ -1,25 +1,25 @@
 let a=10;
 alert (a=20);
 
-let number= alert ('2007') //Год выпуска первого Iphone;
+let y= alert ('2007') //Год выпуска первого Iphone;
 
 let name= alert ('Brendan Eich') //Имя создателя языка JavaScript;
 
-$a = 10;
-$b = 2;
-alert ($a+$b);
-alert ($a-$b);
-alert ($a*$b);
-alert ($a/$b);
+let b=10;
+let c=2;
+alert (b+c);
+alert (b-c);
+alert (b*c);
+alert (b/c);
 
-$c=5;
-$result=$b**$c;
-alert ($result);
+let d=5;
+let result=c**d;
+alert (result);
 
-$a=9;
-$b=2;
-$result=$a%$b;
-alert ($result);
+let a1=9;
+let b1=2;
+let result1=a1%b1;
+alert (result1);
 
 let num = 1;
 num += 5;
