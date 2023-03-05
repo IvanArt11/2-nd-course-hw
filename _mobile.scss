@@ -1,0 +1,37 @@
+@media (max-width: 767px) {
+    
+    .center {
+        padding: 0px 16px;
+    }
+
+    .top {
+        padding-top: 238px;
+        height: 735px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+
+        &_title {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &_text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 32px;
+        }
+    }
+
+    .product-box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
