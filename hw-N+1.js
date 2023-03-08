@@ -90,8 +90,8 @@ if (clientOS === 0) {
 let clientDeviceYear = 2015;
 let version = clientDeviceYear >= 2015 ? '' : 'облегченную';
 
-if (clientOS===1) {
-    console.log(`Установите ${version} версию приложения для Android по ссылке`);
-} else if (clientOS===0) {
+if (clientOS===0) {
     console.log(`Установите ${version} версию приложения для IOS по ссылке`);
+} else if (clientOS===1) {
+    console.log(`Установите ${version} версию приложения для Android по ссылке`);
 }
