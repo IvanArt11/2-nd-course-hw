@@ -31,64 +31,40 @@ if (d>100 || e>100) {
 }
 
 //Задание 4
-let a = Number('2');
-let b = Number('3');
+const a = Number('2');
+const b = Number('3');
 alert (a + b);
 
 //Задание 5
 let monthNumber = prompt('Введите номер месяца в году');
 
 switch (monthNumber) {
+    case '12':
     case '1':
-        console.log('Зима');
-        break;
-
     case '2':
         console.log('Зима');
         break;
 
     case '3':
-        console.log('Весна');
-        break;
-
     case '4':
-        console.log('Весна');
-        break;
-
     case '5':
         console.log('Весна');
         break;
 
     case '6':
-        console.log('Лето');
-        break;
-
     case '7':
-        console.log('Лето');
-        break;
-
     case '8':
         console.log('Лето');
         break;
 
     case '9':
-        console.log('Осень');
-        break;
-
     case '10':
-        console.log('Осень');
-        break;
-
     case '11':
         console.log('Осень');
         break;
 
-    case '12':
-        console.log('Зима');
-        break;
-
     default:
-        console.log('Такого номера месяца в году существует');
+        console.log('Такого номера месяца в году не существует');
         break;
 }
 
@@ -102,7 +78,7 @@ if (f/2%1) {
 }
 
 //Задание 8
-let clientOS = 0;
+const clientOS = 0;
 
 if (clientOS === 0) {
     console.log('Установите версию приложения для iOS  по ссылке');
