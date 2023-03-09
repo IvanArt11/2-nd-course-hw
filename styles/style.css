@@ -17,7 +17,7 @@ body {
 .top {
   padding-top: 217px;
   padding-bottom: 493px;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(./Img/Rectangle\ 1.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(../img/Rectangle\ 1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,6 +35,7 @@ body {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  max-width: 481px;
 }
 .top_button {
   box-sizing: border-box;
@@ -88,7 +89,7 @@ body {
   text-decoration: underline;
 }
 .product_first {
-  background-image: url(./Img/Rectangle\ 6.jpg);
+  background-image: url(../img/Rectangle\ 6.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -96,11 +97,11 @@ body {
   height: 300px;
 }
 .product_first:hover {
-  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./Img/Rectangle\ 6.jpg);
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(../img/Rectangle\ 6.jpg);
   cursor: pointer;
 }
 .product_second {
-  background-image: url(./Img/Rectangle\ 7.jpg);
+  background-image: url(../img/Rectangle\ 7.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -108,11 +109,11 @@ body {
   height: 300px;
 }
 .product_second:hover {
-  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./Img/Rectangle\ 7.jpg);
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(../img/Rectangle\ 7.jpg);
   cursor: pointer;
 }
 .product_third {
-  background-image: url(./Img/Rectangle\ 8.jpg);
+  background-image: url(../img/Rectangle\ 8.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -120,7 +121,7 @@ body {
   height: 300px;
 }
 .product_third:hover {
-  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./Img/Rectangle\ 8.jpg);
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(../img/Rectangle\ 8.jpg);
   cursor: pointer;
 }
 
