@@ -15,9 +15,9 @@ body {
 }
 
 .top {
-  height: 1024px;
   padding-top: 217px;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(./Img/Rectangle\ 1.jpg);
+  padding-bottom: 493px;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) -7.35%, #000915 100%), url(../img/Rectangle\ 1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,6 +35,7 @@ body {
   font-weight: 300;
   font-size: 18px;
   line-height: 32px;
+  max-width: 481px;
 }
 .top_button {
   box-sizing: border-box;
@@ -47,10 +48,10 @@ body {
   line-height: 22px;
   width: 234px;
   height: 48px;
+  transition: 0.3s;
 }
 .top_button:hover {
-  background: #FFFFFF;
-  color: #000000;
+  background: #EB443F;
   cursor: pointer;
 }
 
@@ -72,6 +73,10 @@ body {
   align-items: flex-end;
   padding-bottom: 32px;
   padding-left: 32px;
+  transition: 0.3s;
+}
+.product:hover {
+  border: 3px solid #44D2FF;
 }
 .product_title {
   font-style: normal;
@@ -84,7 +89,7 @@ body {
   text-decoration: underline;
 }
 .product_first {
-  background-image: url(./Img/Rectangle\ 6.jpg);
+  background-image: url(../img/Rectangle\ 6.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -92,11 +97,11 @@ body {
   height: 300px;
 }
 .product_first:hover {
-  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./Img/Rectangle\ 6.jpg);
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(../img/Rectangle\ 6.jpg);
   cursor: pointer;
 }
 .product_second {
-  background-image: url(./Img/Rectangle\ 7.jpg);
+  background-image: url(../img/Rectangle\ 7.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -104,11 +109,11 @@ body {
   height: 300px;
 }
 .product_second:hover {
-  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./Img/Rectangle\ 7.jpg);
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(../img/Rectangle\ 7.jpg);
   cursor: pointer;
 }
 .product_third {
-  background-image: url(./Img/Rectangle\ 8.jpg);
+  background-image: url(../img/Rectangle\ 8.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,7 +121,54 @@ body {
   height: 300px;
 }
 .product_third:hover {
-  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(./Img/Rectangle\ 8.jpg);
+  background-image: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(../img/Rectangle\ 8.jpg);
+  cursor: pointer;
+}
+
+.seasons {
+  background: #000915;
+  padding: 282px 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+.seasons_content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+  max-width: 584px;
+}
+.seasons_subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
+.seasons_text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+.seasons_button {
+  box-sizing: border-box;
+  border-radius: 30px;
+  background: #9C0332;
+  padding: 13px 74px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 234px;
+  height: 48px;
+  transition: 0.3s;
+}
+.seasons_button:hover {
+  background: #EB443F;
   cursor: pointer;
 }
 
@@ -125,13 +177,13 @@ body {
     padding: 0px 16px;
   }
   .top {
-    padding-top: 238px;
-    height: 735px;
+    padding: 238px 16px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    max-height: 735px;
   }
   .top_title {
     font-style: normal;
@@ -150,5 +202,31 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    padding: 128px 16px;
+  }
+  .seasons {
+    padding-top: 51px;
+    padding-bottom: 85px;
+    justify-content: center;
+  }
+  .seasons_content {
+    align-items: center;
+  }
+  .seasons_subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .seasons_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 343px;
+    text-align: center;
+  }
+  .seasons_image {
+    max-width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */
