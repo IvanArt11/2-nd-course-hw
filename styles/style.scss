@@ -140,7 +140,7 @@ body {
 
 .seasons {
     background: #000915;
-    padding: 282px 120px;
+    padding: 233px 120px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -180,6 +180,58 @@ body {
         font-size: 18px;
         line-height: 22px;
         width: 234px;
+        height: 48px;
+        transition: 0.3s;
+
+        &:hover {
+            background: #EB443F;
+            cursor: pointer;
+        }
+    }
+}
+
+.memory {
+    background: #000915;
+    padding: 239px 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+
+    &_content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 32px;
+        max-width: 588px;
+    }
+
+    &_subtitle {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    &_text {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    &_button {
+        box-sizing: border-box;
+        border-radius: 30px;
+        background: #9C0332;
+        padding: 13px 76px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        width: 240px;
         height: 48px;
         transition: 0.3s;
 

@@ -66,4 +66,34 @@
             max-width: 344px;
         }
     }
+
+    .memory {
+        padding-top: 51px;
+        padding-bottom: 90px;
+        justify-content: center;
+
+        &_content {
+            align-items: center;
+        }
+
+        &_subtitle {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &_text {
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 22px;
+            max-width: 343px;
+            text-align: center
+        }
+
+        &_image {
+            max-width: 344px;
+        }
+    }
 }
