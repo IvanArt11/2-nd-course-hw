@@ -23,7 +23,7 @@ while (b<=22) {
 let obj = {'Коля': '200', 'Вася': '300', 'Петя': '400'};
 
 for(key in obj){
-    console.log([key]+ ' - зарплата '+ obj[key]+' долларов');
+    console.log(key + ' - зарплата ' + obj[key] + ' долларов');
 }
 
 // //Задание 5
@@ -40,6 +40,6 @@ console.log(num);
 
 //Задание 6
 const firstFriday=3;
-for (let i = firstFriday; i <= 31; i=i+7) {
+for (let i = firstFriday; i <= 31; i+=7) {
     console.log(`Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.`);
 }
