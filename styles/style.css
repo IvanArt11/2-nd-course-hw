@@ -127,7 +127,7 @@ body {
 
 .seasons {
   background: #000915;
-  padding: 282px 120px;
+  padding: 233px 120px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -168,6 +168,53 @@ body {
   transition: 0.3s;
 }
 .seasons_button:hover {
+  background: #EB443F;
+  cursor: pointer;
+}
+
+.memory {
+  background: #000915;
+  padding: 239px 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+.memory_content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+  max-width: 588px;
+}
+.memory_subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
+.memory_text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+}
+.memory_button {
+  box-sizing: border-box;
+  border-radius: 30px;
+  background: #9C0332;
+  padding: 13px 76px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 240px;
+  height: 48px;
+  transition: 0.3s;
+}
+.memory_button:hover {
   background: #EB443F;
   cursor: pointer;
 }
@@ -227,6 +274,31 @@ body {
     text-align: center;
   }
   .seasons_image {
+    max-width: 344px;
+  }
+  .memory {
+    padding-top: 51px;
+    padding-bottom: 90px;
+    justify-content: center;
+  }
+  .memory_content {
+    align-items: center;
+  }
+  .memory_subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .memory_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 343px;
+    text-align: center;
+  }
+  .memory_image {
     max-width: 344px;
   }
 }/*# sourceMappingURL=style.css.map */
