@@ -2,7 +2,7 @@
 console.log("\n Задание 1");
 let number= [1, 5, 4, 10, 0, 3];
 // for (let i = 0; i < number.length; i++) {
-//     if (number[i] === 0) break;
+//     if (number[i] === 10) break;
 // 	console.log(number[i]);
 // }
 for (item of number) {
@@ -24,7 +24,7 @@ console.log(number);
 console.log("\n Задание 4");
 let arr= [];
 for (let i = 0; i < 3; i++) {
-    arr.push([1]);
+    arr.push([]);
     for (let y = 0; y < 3; y++) {
         arr[i][y]=1;
     }
@@ -87,14 +87,14 @@ for (let i = 0; i < arr.length - 1; i++) {
 //Задание 11
 console.log("\n Задание 11");
 arr= [5, 4, 3, 2, 1]
-arrNew= arr.map(item=>item**2);
-console.log(arrNew);
+square= arr.map(item => item**2);
+console.log(square);
 
 //Задание 12
 console.log("\n Задание 12");
-const lengthWords= ['слово', '', 'слог', 'длинное предложение', 'буква'];
-let lengthWordsNew=lengthWords.map(item=>item.length);
-console.log(lengthWordsNew);
+const words= ['слово', '', 'слог', 'длинное предложение', 'буква'];
+let wordsLength=words.map(item=>item.length);
+console.log(wordsLength);
 
 //Задание 13
 console.log("\n Задание 13");
