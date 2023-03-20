@@ -74,7 +74,7 @@ for (let i = 0; i < arr.length - 1; i++) {
     console.log(arr[i] + arr[i+1]);
 };
 
-// Попробовал еще так сделать
+// Version 2
 // arr = [];
 // for (let i = 0; i < 10; i++) {
 //   arr.push(Math.floor(Math.random() * 10 + 1));
@@ -98,11 +98,10 @@ console.log(wordsLength);
 
 //Задание 13
 console.log("\n Задание 13");
-arr= [6, 4, 2, 8, 1];
-let negative= arr.map(item => -item);
-console.log(negative);
+// arr= [6, 4, 2, 8, 1];
+// let negative= arr.map(item => -item);
+// console.log(negative);
 
-//или в задании имелось ввиду это
 arr= [2, -1, 3, -4, 5, -6];
 let onlyNegative= arr.filter(item => item < 0);
 console.log(onlyNegative); 
