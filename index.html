@@ -17,33 +17,33 @@
         <button class="top_button">Поехали!</button>
     </header>
     <section class="product-box center">
-         <div class="product product_first" onclick="game1 ()">
-            <a class="product_title" href="#">Игра 1</a>
+         <div class="product product_first">
+            <a class="product_title" href="#season">Игра 1</a>
         </div>
         <div class="product product_second">
-            <a class="product_title" href="#">Игра 2</a>
+            <a class="product_title" href="#memory">Игра 2</a>
         </div>
         <div class="product product_third">
-            <a class="product_title" href="#">Игра 3</a>
+            <a class="product_title" href="#mystery">Игра 3</a>
         </div>
     </section>
     <section class="seasons center">
-        <div class="seasons_content">
+        <div class="seasons_content" id="season">
             <h2 class="seasons_subtitle">Времена года!</h2>
             <p class="seasons_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-            <button class="seasons_button">Играть!</button>
+            <button class="seasons_button" onclick="seasons ()">Играть!</button>
         </div>
         <img class="seasons_image" src="./img/undraw_video_game_night_8h8m 1.png" alt="picture">
     </section>    
     <section class="memory center">
-        <img class="memory_image" src="./img/undraw_gaming_re_cma2 1.png" alt="picture">
+        <img class="memory_image" id="memory" src="./img/undraw_gaming_re_cma2 1.png" alt="picture">
         <div class="memory_content">
             <h2 class="memory_subtitle">Запомни слова</h2>
             <p class="memory_text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
-            <button class="memory_button">Играть</button>
+            <button class="memory_button" onclick="memoryWords ()">Играть</button>
         </div>
     </section>
-    <section class="mystery center">
+    <section class="mystery center" id="mystery">
         <h2 class="mystery_subtitle">Игра в загадки</h2>
         <p class="mystery_text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
         <button class="mystery_button">Играть!</button>
@@ -52,6 +52,13 @@
         <p>Все права защищены</p>
     </footer>
 
-    <script src="./scripts/hw-5.js"></script>
+    <!-- <script src="./scripts/hw-1.js"></script> -->
+    <!-- <script src="./scripts/hw-2.js"></script> -->
+    <!-- <script src="./scripts/hw-3.js"></script> -->
+    <!-- <script src="./scripts/hw-4.js"></script> -->
+    <!-- <script src="./scripts/hw-5.js"></script> -->
+    <script src="./scripts/hw-6.js"></script>
+    <script src="./scripts/season.js"></script>
+    <script src="./scripts/memory.js"></script>
 </body>
 </html>
