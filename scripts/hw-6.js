@@ -3,8 +3,7 @@
 
 console.log("\n Задание 1");
 
-let str= 'Строка';
-str= str.toUpperCase();
+const str= 'js'.toUpperCase();
 
 console.log(str);
 
