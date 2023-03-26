@@ -111,7 +111,6 @@ console.log("\n Задание 5");
 
 function calling() {
     console.log('Звоню!');
-    beeps(talk);
 };
 
 function beeps(callback) {
@@ -126,3 +125,4 @@ function talk() {
 }
 
 calling();
+beeps(talk);
