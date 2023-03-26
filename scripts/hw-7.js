@@ -64,8 +64,7 @@ const task = setTimeout(() => {
     console.log("\n Задание 4");
 }, 3000);
 
-const timer = (deadline) => {
-    const interval = setInterval(() => {
+const interval = setInterval(() => {
         let date = new Date();
         console.log(date);
     }, 3000);
@@ -73,10 +72,7 @@ const timer = (deadline) => {
     setTimeout(() => {
         clearInterval(interval);
         console.log('30 секунд прошло');
-    }, deadline * 1000)
-};
-
-timer(30);
+    }, 30000);
 
 // Version 2
 // const timer = (deadline) => {
