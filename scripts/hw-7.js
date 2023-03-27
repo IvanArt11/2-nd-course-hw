@@ -54,7 +54,7 @@ const each = (arr, callback) => callback(arr);
 console.log(each(arr, reversArr));
 
 arr = [1, '4', false, 9, 'two'];
-const toNumberArr = (arr) => arr.map(item => Number(item)).filter(item => !isNaN(item));
+const toNumberArr = (arr) => arr.filter(item => !isNaN(item)).map(item => Number(item));
 console.log(each(arr, toNumberArr));
 
 //Задание 4
